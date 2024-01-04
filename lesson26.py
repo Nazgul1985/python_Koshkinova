@@ -19,7 +19,13 @@ conn.commit()
 # cursor.execute(insert_data_q)
 # conn.commit()
 
-
+insert_data_q2 = '''
+INSERT INTO Products (ProductID, Name, Price) VALUES
+(3,'Lamp', 89.89),
+(4, 'Printer', 45.56);
+'''
+cursor.execute(insert_data_q2)
+conn.commit()
 
 sel_data_q = "SELECT * FROM Products;"
 cursor.execute(sel_data_q)
