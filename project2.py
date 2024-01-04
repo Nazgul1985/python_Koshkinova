@@ -89,18 +89,3 @@ button2.pack(side='left')
 button3.pack(side='left')
 
 window.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
