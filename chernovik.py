@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 
 import csv
 conn = sqlite3.connect ('myDataBase.db')
 cursor=conn.cursor()
