@@ -1,3 +1,21 @@
+# import csv
+# data= [
+#     ['Имя','Возраст','Город'],
+#     ['Nazul Z', '39','Temirtau'],
+#     ['Askar', '39','Temirtau'],
+#     ['Azamat','14', 'New York']
+# ]
+# with open ('output.csv', 'w', newline= '') as file:
+#     writer = csv.writer(file)
+#     writer.writerows(data)
+
+# with open ('output.csv', 'r') as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         print (row)
+    
+
+
 import csv
 
 data= [
