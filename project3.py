@@ -23,8 +23,8 @@ conn.commit()
 root = tk.Tk()
 root.geometry("400x400")
 
-def Add_info():
-    print ('Данные успешно внесены')
+# def Add_info():
+#     print ('Данные успешно внесены')
 
 def add_user(id,name, last_name):
     cursor.execute('INSERT INTO Person (PersonID, Name, LastName) VALUES (?,?,?)', (id,name, last_name))
@@ -53,11 +53,10 @@ def open_new_window():
     en_btn = tk.Button(new_window, text="Добавить", command=add_user)
     en_btn.pack()
 
-
     id= id_entry.get()
     name = name_entry.get()
     last_name = last_n_entry.get()
-
+    
     add_user(id, name, last_name)
     new_window.mainloop()
 
