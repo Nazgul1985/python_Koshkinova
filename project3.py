@@ -57,7 +57,7 @@ def open_new_window():
     name = name_entry.get()
     last_name = last_n_entry.get()
     
-    add_user(id, name, last_name)
+    #add_user(id, name, last_name)
     new_window.mainloop()
 
 
