@@ -23,4 +23,4 @@ print(df)
 
 new_student = {'Name': 'Talgat', 'Age': 20, 'Gender': 'M', 'GPA': 2}
 df = df.append(new_student, ignore_index=True)
-print(df)
+print(df) 
